@@ -1,0 +1,53 @@
+/* Background + overlay */
+[data-testid="stAppViewContainer"] {
+    background:
+        linear-gradient(rgba(20,60,30,0.42), rgba(20,60,30,0.42)),
+        url("https://images.unsplash.com/photo-1469474968028-56623f02e42e");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+/* Sidebar styling */
+[data-testid="stSidebar"] {
+    background: rgba(255,255,255,0.96);
+    border-right: 1px solid #c8e6c9;
+    color: #0b3d0b;
+}
+[data-testid="stSidebar"] h1,
+[data-testid="stSidebar"] h2,
+[data-testid="stSidebar"] h3 {
+    color: #0b3d0b !important;
+    font-weight: 800 !important;
+    font-size: 20px !important;
+}
+
+/* Ensure radio/select labels and options are visible */
+[data-testid="stSidebar"] label,
+[data-testid="stSidebar"] .widget-label,
+[data-testid="stSidebar"] .stRadio,
+[data-testid="stSidebar"] .stSelectbox,
+[data-testid="stSidebar"] .stNumberInput {
+    color: #0b3d0b !important;
+    opacity: 1 !important;
+}
+[data-testid="stSidebar"] input,
+[data-testid="stSidebar"] select,
+[data-testid="stSidebar"] textarea {
+    color: #0b3d0b !important;
+    background: transparent !important;
+}
+[data-testid="stSidebar"] input[type="radio"],
+[data-testid="stSidebar"] input[type="checkbox"] {
+    accent-color: #1b5e20 !important;
+}
+
+/* Main card readability */
+.main-card {
+    background: rgba(255,255,255,0.96);
+    padding: 1.25rem;
+    border-radius: 12px;
+    border: 1px solid #c8e6c9;
+    box-shadow: 0 6px 18px rgba(0,0,0,0.06);
+    margin-bottom: 1rem;
+}
