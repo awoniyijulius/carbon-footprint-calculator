@@ -1,7 +1,16 @@
 # 🌍 Carbon Footprint Calculator
 
-An interactive web app built with **Streamlit** to estimate your annual carbon footprint across transport, electricity, diet, and shopping.  
-It features sustainability‑themed visuals, local options for Nigeria, history tracking, downloads, and suggestions for greener living.
+## ℹ️ About this Project
+
+This Carbon Footprint Calculator is designed as an **educational and awareness tool** for individuals.  
+It helps users estimate their annual carbon footprint across transport, electricity, diet, and shopping, and provides suggestions for greener living.
+
+⚠️ Important note:  
+This app is **not a formal sustainability reporting framework** (such as GRI, SASB, CDP, or the GHG Protocol).  
+Instead, it is **inspired by the United Nations Sustainable Development Goals (UN SDGs)** and aims to make climate awareness accessible at the personal level.
+
+The goal is to encourage individuals to take **first steps toward climate action**, complementing — but not replacing — organizational reporting standards.
+
 
 ---
 
